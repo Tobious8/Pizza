@@ -62,3 +62,31 @@ p, li {
   clear: both;
 }
  
+@media only screen and (max-width: 767px) {
+.pageContainer {
+    width: 440px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .imageContainer {
+    float: left;
+    width: 320px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.pageContainer {
+    width: 540px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .imageContainer {
+    float: left;
+    width: 390px;
+  }
+
+}
